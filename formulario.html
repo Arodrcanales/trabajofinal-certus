@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validación de formulario</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+  <div class="main">
+    <div class="cabecera">
+      <h2>FORMULARIO DE REGISTRO</h2>
+    </div>
+    <form id="formulario" action="" method="post">
+
+      <div class="for-control">
+        <label for="usuario">usuario</label>
+        <input id="usuario" type="text">
+        <p></p>
+      </div>
+
+      <div class="for-control">
+        <label for="celular">celular</label>
+        <input id="celular" type="number">
+        <p></p>
+      </div>
+
+      <div class="for-control">
+        <label for="direccion">direccion</label>
+        <input id="direccion" type="text">
+        <p></p>
+      </div>
+
+      <div class="for-control">
+        <label for="email">Email</label>
+        <input id="email" type="email">
+        <p></p>
+      </div>
+
+      <div class="for-control">
+        <label for="pass">Password</label>
+        <input id="pass" type="password">
+        <p></p>
+      </div>
+
+      <div class="for-control">
+        <label for="passConfirma">conf password</label>
+        <input id="passConfirma" type="password">
+        <p></p>
+      </div>
+
+      <button class="btn btn-primary">enviar</button>
+    </form>
+  </div>
+
+  <script src="custom.js"></script>
+</body>
+
+</html>

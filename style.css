@@ -1,0 +1,30 @@
+
+*{
+    font-family: "Gill Sans", sans-serif;
+}
+/* estilo para la totalidad de la pagina */
+body{
+    
+    background-image: linear-gradient( 95.2deg, rgb(31, 53, 48) 26.8%, rgb(58, 104, 125) 64% );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.main{
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 15px 8px;
+}
+
+.cabecera{
+    text-align: center;
+}
+
+.for-control{
+    text-align: center;
+    margin: 30px;
+}
